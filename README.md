@@ -1,27 +1,14 @@
 # Portfolio-Project: To-Do-List-App
 
-## Table of Contents
-
-- [overview]
-    - [key_features]
-- [links]
-- [process]
-    - [programming_languages]
-    - [used_resources]
-
 ## Overview
 
-This is a mini HTML/CSS/JavaScript app built with the use of jQuery. 
-It contains a To Do List with basic functions like creating, moving, crossing out and removing list items.
-
-### Key Features
-
-- Implementation of jQuery library
+This is a basic To-Do-List HTML/CSS/JavaScript app built with the use of jQuery. 
+It can create, move, cross out, and remove list items.
 
 ## Links
 
 - [Code URL](https://github.com/ElenaUJ/To-Do-List-App)
-- [Live Site URL](insert link here)
+- [Live Site URL](https://elenauj.github.io/To-Do-List-App/)
 
 ## Process
 
@@ -33,4 +20,5 @@ It contains a To Do List with basic functions like creating, moving, crossing ou
 
 ### Used resources
 
-- jQuery library
+- jQuery
+- [vanilla JavaScript template](https://replit.com/@CFCurriculum/jQuery-to-do-list)
