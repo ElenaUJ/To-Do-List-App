@@ -28,8 +28,8 @@ input {
 }
 #button:hover {
     cursor: pointer;
-    opacity: .8;}
-
+    opacity: .8;
+}
 ol {
     padding-left: 20px;
 }
@@ -40,7 +40,8 @@ ol li {
 ol li:nth-child(even) {
     background: #dfdfdf;
 }
-.strike {text-decoration: line-through;
+.strike {
+    text-decoration: line-through;
 }
 li:hover {
   cursor: pointer;
