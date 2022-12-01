@@ -11,4 +11,10 @@ function newItem () {
     } else {
         list.append(li);
     }
+
+    // 2. Crossing out items upon double-click (has to be placed inside newItem() function because li-lement is only created within that function
+    function crossOut() {
+        li.addClass('strike');
+    }
+    li.on('dblclick', crossOut);
 };
