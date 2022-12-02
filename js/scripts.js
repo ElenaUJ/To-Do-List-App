@@ -36,5 +36,11 @@ function newItem () {
     // 4. Reordering the items
     // Question: So this is only possible with jQuery anyway? I just copied that from the "vanilla" JavaScript template. But I don't have any idea how it works. It's probably very complicated using pure JavaScript?!
     list.sortable();
+}
 
-};
+// Extra: Adding new item upon Enter click
+$(document).on('keydown', function (event) {
+    if ( event.key === Enter ) {
+        newItem();
+    }
+});
