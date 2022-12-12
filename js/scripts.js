@@ -34,9 +34,3 @@ function newItem () {
     list.sortable();
 }
 
-// Extra: Adding new item upon Enter click
-$(document).on('keydown', function (event) {
-    if ( event.key === 'Enter' ) {
-        newItem();
-    }
-});
