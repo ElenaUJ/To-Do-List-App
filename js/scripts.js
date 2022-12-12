@@ -36,7 +36,7 @@ function newItem () {
 
 // Extra: Adding new item upon Enter click
 $(document).on('keydown', function (event) {
-    if ( event.key === Enter ) {
+    if ( event.key === 'Enter' ) {
         newItem();
     }
 });
