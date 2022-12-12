@@ -24,12 +24,11 @@ function newItem () {
     let crossOutButton = $('<crossOutButton>X</crossOutButton>');
     li.append(crossOutButton);
     
-    crossOutButton.on('click', deleteListItem);
-
     // 3(ii). Adding class="delete" upon click on delete button
     function deleteListItem () {
         li.addClass('delete');
     }
+    crossOutButton.on('click', deleteListItem);
 
     // 4. Reordering the items
     list.sortable();
